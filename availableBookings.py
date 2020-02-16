@@ -1,6 +1,12 @@
+######################################
+# Code written in Python 3.8         #
+# Author: iiTsGiga                   #
+# Date: 16.02.2020                   #
+######################################
+
 # convert time to minutes -> e.g. '10:30' to 630
-def convert_time(time: str):
-    t = time.split(":")
+def convert_time(time: str) -> int:
+    t = time.split(':')
     return (int(t[0]) * 60) + int(t[1])
 
 
