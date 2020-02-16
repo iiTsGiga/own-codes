@@ -61,7 +61,7 @@ def get_bookings(meetings1, timeRange1, meetings2, timeRange2, meetingDuration) 
     return available
 
 
-# example from the google interview: https://www.youtube.com/watch?v=3Q_oYDQ2whs
+# example from the google coding interview: https://www.youtube.com/watch?v=3Q_oYDQ2whs
 m1 = [['9:00', '10:30'], ['12:00', '13:00'], ['16:00', '18:00']]
 tr1 = ['9:00', '20:00']
 m2 = [['10:00', '11:30'], ['12:30', '14:30'], ['14:30', '15:00'], ['16:00', '17:00']]
